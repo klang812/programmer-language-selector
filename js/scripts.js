@@ -5,7 +5,7 @@ $(document).ready(function() {
     const question3 = $("select#question3").val();
     const question4 = $("select#question4").val();
     const question5 = $("select#question5").val();
-
+    
     if ((question1 === "Flexibility" || "Dynamic") && question2 === "Hulu" && question3 === "Thailand" && question4 === "Quinoa" && question5 === "Fishing")  {
       $('#ruby').show();
     } else if (question2 === "Google" && (question1 === "Flexibility" || "Dynamic") && (question3 === "Italy" || "Costa Rica") && question4 === "Beets" && question5 === "Smoking Meat") {
@@ -19,6 +19,11 @@ $(document).ready(function() {
     } else {
       $('#incomplete').show();
     }
+    
     event.preventDefault();
   });
 });
+
+$(document).ready(function() {
+  const yourName = 
+}

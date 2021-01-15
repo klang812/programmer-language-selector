@@ -1,8 +1,11 @@
-
+body {
+  margin: 2%;
+  background-color: #cccccc;
+}
 
 h1 {
   text-align: center;
-}
+} 
 
 h3 {
   text-align: center;
@@ -16,6 +19,13 @@ label {
   font-weight: 800;
 }
 
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 #ruby, #python, #c, #incomplete {
   display: none;
 }
@@ -23,3 +33,6 @@ label {
 .row {
   margin: 4% 10%;
 }
+
+
+
