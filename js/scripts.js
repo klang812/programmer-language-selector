@@ -8,7 +8,7 @@ $(document).ready(function() {
     
     if ((question1 === "Flexibility" || "Dynamic") && question2 === "Hulu" && question3 === "Thailand" && question4 === "Quinoa" && question5 === "Fishing")  {
       $('#ruby').show();
-    } else if (question2 === "Google" && (question1 === "Flexibility" || "Dynamic") && (question3 === "Italy" || "Costa Rica") && question4 === "Beets" && question5 === "Smoking Meat") {
+      } else if (question2 === "Google" && (question1 === "Flexibility" || "Dynamic") && (question3 === "Italy" || "Costa Rica") && question4 === "Beets" && question5 === "Smoking Meat") {
       $('#python').show();
     } else if ((question3 === "Costa Rica" || "Italy") && question1 === "Dynamic" && question2 === "Microsoft" && (question4 === "Roasted Bell Peppers" || "Beets") && (question5 === "Hiking" || "Fishing")) {
       $('#c').show();
@@ -24,6 +24,3 @@ $(document).ready(function() {
   });
 });
 
-$(document).ready(function() {
-  const yourName = 
-}
