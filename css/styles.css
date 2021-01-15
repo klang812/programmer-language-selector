@@ -16,7 +16,7 @@ label {
   font-weight: 800;
 }
 
-#ruby, #python, c# {
+#ruby, #python, #c {
   display: none;
 }
 
