@@ -1,0 +1,25 @@
+
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+select {
+  margin-left: 15px;
+}
+
+label {
+  font-weight: 800;
+}
+
+#ruby, #python, c# {
+  display: none;
+}
+
+.row {
+  margin: 4% 10%;
+}
