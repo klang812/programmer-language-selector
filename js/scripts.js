@@ -9,12 +9,24 @@ $(document).ready(function() {
     if ((question1 === "Flexibility" || "Dynamic") && question2 === "Hulu" && question3 === "Thailand" && question4 === "Quinoa" && question5 === "Fishing")  {
       $("#ruby").show();
     } else if (question2 === "Google" && (question1 === "Flexibility" || "Dynamic") && (question3 === "Italy" || "Costa Rica") && question4 === "Beets" && question5 === "Smoking Meat") {
+      $("#incomplete").hide();
+      $("#c").hide();
+      $("#ruby").hide();
       $("#python").show();
     } else if ((question3 === "Costa Rica" || "Italy") && question1 === "Dynamic" && question2 === "Microsoft" && (question4 === "Roasted Bell Peppers" || "Beets") && (question5 === "Hiking" || "Fishing")) {
+      $("#incomplete").hide();
+      $("#python").hide();
+      $("#ruby").hide();
       $("#c").show();
     } else if ((question4 === "Quinoa" || "Beets") && question1 === "Complexity" && question2 === "Hulu" && (question3 === "Thailand" || "Costa Rica") && (question5 === "Smoking Meat" || "Fishing")) {
+      $("#incomplete").hide();
+      $("#python").hide();
+      $("#c").hide();
       $("#ruby").show();
     } else if ((question5 === "Fishing" || "Hiking" || "Smoking Meat") && question1 === "Flexibility" && question2 === "Hulu" && (question3 === "Italy" || "Thailand" || "Costa Rica")) {
+      $("#incomplete").hide();
+      $("#python").hide();
+      $("#c").hide();
       $("#ruby").show();
     } else {
       $("#incomplete").show();
