@@ -7,6 +7,8 @@ $(document).ready(function() {
     const question5 = $("select#question5").val();
         
     if ((question1 === "Flexibility" || "Dynamic") && question2 === "Hulu" && question3 === "Thailand" && question4 === "Quinoa" && question5 === "Fishing")  {
+      //$("#ruby").hide();
+      $("#c, #python, #incomplete").hide();
       $("#ruby").show();
     } else if (question2 === "Google" && (question1 === "Flexibility" || "Dynamic") && (question3 === "Italy" || "Costa Rica") && question4 === "Beets" && question5 === "Smoking Meat") {
       $("#incomplete").hide();
@@ -23,12 +25,13 @@ $(document).ready(function() {
       $("#python").hide();
       $("#c").hide();
       $("#ruby").show();
-    } else if ((question5 === "Fishing" || "Hiking" || "Smoking Meat") && question1 === "Flexibility" && question2 === "Hulu" && (question3 === "Italy" || "Thailand" || "Costa Rica")) {
+    } else if ((question5 === "Fishing" || "Hiking" || "Smoking Meat") && question1 === "Flexibility" && question2 === "Hulu" && (question3 === "Italy" || "Costa Rica")) {
       $("#incomplete").hide();
       $("#python").hide();
       $("#c").hide();
       $("#ruby").show();
     } else {
+      $("#python, #c, #ruby").hide();
       $("#incomplete").show();
     }
     
