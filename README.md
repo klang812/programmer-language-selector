@@ -13,7 +13,7 @@ _This project was intended to test my knowledge using Javascript/JQuery.  In the
 * _Clone the repository using this URL: https://github.com/klang812/programmer-language-selector_
 
 ## Known Bugs
-* _After receiving responses from the user the result appends on top of each other as the answers change._
+* _No known bugs at this time._
 
 ## Technologies Used
 * _HTML_
