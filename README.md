@@ -1,6 +1,6 @@
 # *Programmer Language Selector*
 
-#### *Programmer Language Selector for Epicodus, 1.8.2021*
+#### *Programmer Language Selector for Epicodus, 1.15.2021*
 
 #### *By Kerry Lang*
 
@@ -10,7 +10,9 @@ _This project was intended to test my knowledge using Javascript/JQuery.  In the
 ## Behavior
 
 ## Setup
-* _Clone the repository using this URL: https://github.com/klang812/programmer-language-selector_
+* _Clone the repository https://github.com/klang812/programmer-language-selector to your desktop._
+* _Navigate to the top level of the directory._
+* _Open programmer-language-selector/index.html in your browser._
 
 ## Known Bugs
 * _No known bugs at this time._
